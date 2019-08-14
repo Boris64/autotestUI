@@ -19,8 +19,8 @@ public class LoginPage {
     public HomePage loginAsTestUser() {
         okButton.click();
 
-        loginField.sendKeys("infobis");
-        passwordField.sendKeys("dadomese");
+        loginField.sendKeys("//");
+        passwordField.sendKeys("//");
         passwordField.pressEnter();
 
         try {
