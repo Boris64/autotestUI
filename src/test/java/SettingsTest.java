@@ -19,7 +19,7 @@ public class SettingsTest {
     public void setUp() {
         //Configuration.assertionMode = SOFT;
         Configuration.timeout = 6000;
-        LoginPage loginPage = Selenide.open("https://test2.agrosignal.com/", LoginPage.class);
+        LoginPage loginPage = Selenide.open("//", LoginPage.class);
         homePage = loginPage.loginAsTestUser();
         homePage.viewNews();
     }
